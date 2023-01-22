@@ -76,6 +76,11 @@ body{
     border-radius: 2px;
 }
 
+#header #form #joinnow a{
+    text-decoration: none;
+    color: white;
+}
+
 #header #form #signin{
     border-radius: 2px;
     position: absolute;
