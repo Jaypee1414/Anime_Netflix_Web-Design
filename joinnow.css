@@ -195,7 +195,7 @@
     font-weight: 400;
     width: 80%;
     text-align: start;
-    margin-left: 113px;
+    margin-left: 120px;
 }
 
 #details img{
@@ -220,7 +220,7 @@
 
 #download img{
     height: 380px;
-    margin-left: 90px;
+    margin-left: 30px;
 }
 
 #download #text{
@@ -231,7 +231,7 @@
     height: 27px;
     width: 45%;
     color: white;
-    margin-top: 140px;
+    margin-top: 100px;
     margin-right: 80px;
 }
 
@@ -239,25 +239,192 @@
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 50px;
     width: 100%;
-    text-align: center;
+    text-align: start;
 }
 
 #download #text h4{
     position: absolute;
     top: 0;
-    margin-top: 70px;
+    margin-top: 120px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 25px;
     font-weight: 400;
     width: 80%;
     text-align: start;
-    margin-left: 113px;
+}
+/*
+    TEXT
+*/
+#text2{
+    background-color: black;
+    border-top: 5px solid gray;
+    color: white;
+    height: 300px;
+}
+#text2 #main-text{
+    position: relative;
+    margin: 90px;
+    width: 600px;
+    height: 100px;
+}
+#text2 #main-text h2{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    width: 100%;
+    text-align: start;
+}
+#text2 #main-text h4{
+    position: absolute;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    font-weight: 400;
+    width: 100%;
+    text-align: start;
 }
 
 /*
     KIDS MOVIE
 */
+.textkids h2{
+    margin-top: 60px;
+}
 
 #download #kids{
     margin-top: 30px;
 }
+
+
+/*
+    FOOTER
+*/
+
+
+#footer{
+    width: 100%;
+    height: 250px;
+    position: relative;
+    background-color: black;
+    border-top: 5px solid gray;
+}
+
+
+/*
+    FOOTER DETAILS
+*/
+#footer #details{
+    position: relative;
+    height: 100%;
+    top: 0;
+    width: 200px;
+    margin-left: 60px;
+    border: none;
+}
+
+#footer #details ul{
+    position: absolute;
+    text-align: left;
+    margin-left: 40px;
+    margin-top: 10px;
+}
+#footer #details ul li{
+    list-style: none;
+    margin-top: 25px;
+    font-family:sans-serif;
+    color: gray;
+    font-size: 13px;
+}
+
+#footer #details ul li a{
+    text-decoration: none;
+    color: gray;
+    font-family:sans-serif;
+    letter-spacing: 1px;
+    font-size: 13px;
+}
+
+/*
+    CONTACTS
+*/
+
+#footer #contacts{
+    top: 0;
+    position: absolute;
+    height: 100%;
+    margin-left: 60px;
+}
+
+#footer #contacts ul{
+    width: 200px;
+    position: absolute;
+    text-align: left;   
+    margin-left: 320px;
+    margin-top: 10px;
+}
+#footer #contacts ul li{
+    list-style: none;
+    margin-top: 25px;
+}
+
+#footer #contacts ul li a{
+    text-decoration: none;
+    color: gray;
+    font-family:sans-serif;
+    letter-spacing: 1px;
+    font-size: 13px;
+}
+
+/*
+    ABOUT US
+*/
+
+
+#footer #about{
+    top: 0;
+    position: absolute;
+    height: 100%;
+    margin-left: 60px;
+}
+
+#footer #about ul{
+    width: 200px;
+    position: absolute;
+    text-align: left;   
+    margin-left: 580px;
+    margin-top: 10px;
+}
+#footer #about ul li{
+    list-style: none;
+    margin-top: 25px;
+}
+
+#footer #about ul li a{
+    text-decoration: none;
+    color: gray;
+    font-family:sans-serif;
+    letter-spacing: 1px;
+    font-size: 13px;
+}
+
+
+#footer #developer{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 33%;
+    margin-top: 130px;
+    height: 30px;
+    margin-right: 50px;
+    display: flex;
+    text-align: center;
+}
+
+#footer #developer h6{
+    position: absolute;
+    color: gray;
+    letter-spacing: 5px;
+    top: 25%;
+    width: 100%;
+    height: 100%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
