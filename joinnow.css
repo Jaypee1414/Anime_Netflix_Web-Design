@@ -1,4 +1,5 @@
 *{
+    margin: 0;
     border: 0;
     padding: 0;
     box-sizing: border-box;
@@ -9,9 +10,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    margin-left: -10px;
-    margin-top: -10px;
-    width: 101%;
+    width: 100%;
     height: 665px;
 }
 #body::after{
@@ -100,10 +99,11 @@
     font-size: 25px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 500;
-    top: 100px;
+    top: 120px;
 }
 
 #Subscribing #input{
+    margin-top: 60px;
     position: absolute;
     width: 100%;
     text-align: center;
@@ -117,7 +117,7 @@
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 400;
     width: 100%;
-    top: 0;
+    top: 30px;
 }
 
 #Subscribing #input #subscribe{
@@ -162,11 +162,10 @@
 */
 
 #details{
-    position: absolute;
+    position: relative;
     border-top: 5px solid grey;
-    left: 0;
     width: 100%;
-    height: 400px;
+    height: 430px;
     background-color: black;
     color: white;
 }
@@ -204,4 +203,61 @@
     right: 0;
     margin-top: 30px;
     margin-right: 50px;
+}
+
+/*
+    MOBILE DOWNLOAD
+*/
+
+
+#download{
+    position: relative;
+    border-top: 5px solid gray;
+    width: 100%;
+    height: 430px;
+    background-color: black;
+}
+
+#download img{
+    height: 380px;
+    margin-left: 90px;
+}
+
+#download #text{
+    position: absolute;
+    color: white;
+    top: 0;
+    right: 0;
+    height: 27px;
+    width: 45%;
+    color: white;
+    margin-top: 140px;
+    margin-right: 80px;
+}
+
+#download #text h2{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    width: 100%;
+    text-align: center;
+}
+
+#download #text h4{
+    position: absolute;
+    top: 0;
+    margin-top: 70px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    font-weight: 400;
+    width: 80%;
+    text-align: start;
+    margin-left: 113px;
+}
+
+/*
+    KIDS MOVIE
+*/
+
+#download #kids{
+    margin-top: 30px;
 }
