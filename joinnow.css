@@ -428,3 +428,23 @@
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+/*
+
+    UTILITIES
+*/
+
+#body #head #btn button:hover{
+    background-color: rgb(255, 37, 40);
+    cursor: pointer;
+}
+
+#Subscribing #input #subscribe button:hover{
+    background-color: rgb(255, 11, 15);
+    cursor: pointer;
+}
+
+#footer ul li:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    color: gray;
+}
