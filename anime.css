@@ -21,7 +21,7 @@ body{
     background-color: black;
     position: fixed;
     top: 0px;
-    z-index: 1;
+    z-index: 5;
 }
 
 #header #logo img{
@@ -30,7 +30,6 @@ body{
     position: absolute;
     top: -10px;
     margin-left: 20px;
-
 }
 
 #header #form{
@@ -126,6 +125,7 @@ body{
 /*
     POPULAR ANIME SLIDER
 */
+
 #popular-anime{
     position: relative;
     margin-top: 250px;
@@ -158,7 +158,7 @@ body{
     content: '';
     left: 0;
     top: 0;
-    z-index: 99;
+    z-index: 3;
     height: 100%;
     width: 150px;
     background-image: linear-gradient(90deg, black, transparent);
@@ -169,7 +169,7 @@ body{
     content: '';
     right: 0;
     top: 0;
-    z-index: 99;
+    z-index: 3;
     height: 100%;
     width: 150px;
     background-image: linear-gradient(-90deg, black, transparent);
@@ -221,11 +221,20 @@ body{
 .icon{
     position: relative;
     color: red;
-    background-color: inherit;
+    background-color: transparent;
+    width: 50px;
+    height: 100px;
     outline: none;
     z-index: 100;
     border: none;
     cursor: pointer;
+   font-size: 20px;
+
+}
+
+.icon i{
+    height: 500px;
+    width: 500px;
 }
 
 .icon:hover{
@@ -237,6 +246,215 @@ body{
     INTERNATIONAL MOVIE
 */
 
+#International-anime{
+    position: relative;
+    margin-top: 70px;
+    width: 94%;
+    height: 300px;
+    margin-left: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#International-anime h2{
+    position: absolute;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    width: 310px;
+    color: white;
+    top: 0;
+}
+
+#International-anime #anime-slide{
+    position: absolute;
+    width: 100%;
+    height: 220px;
+    margin-top: 20px;
+}
+
+#International-anime #anime-slide::before{
+    position: absolute;
+    content: '';
+    left: 0;
+    top: 0;
+    z-index: 3;
+    height: 100%;
+    width: 150px;
+    background-image: linear-gradient(90deg, black, transparent);
+}
+
+#International-anime #anime-slide::after{
+    position: absolute;
+    content: '';
+    right: 0;
+    top: 0;
+    z-index: 3;
+    height: 100%;
+    width: 150px;
+    background-image: linear-gradient(-90deg, black, transparent);
+}
+
+#International-anime #anime-slide #International-movie{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    overflow: auto;
+    position: relative;
+    scroll-behavior: smooth;
+    overflow: hidden;
+}
+
+#International-anime #anime-slide #International-movie .child{
+    margin: 1px 10px;
+    height: 100%;
+    min-width: 350px;
+    overflow: hidden;
+    cursor: pointer;
+    position: relative;
+}
+
+#International-anime #anime-slide #International-movie::-webkit-scrollbar{
+    -webkit-appearance: none;
+}
+
+#International-anime #anime-slide #International-movie .child img{
+    width: 100%;
+}
+
+#International-anime #anime-slide #International-movie .child h6{
+    position:absolute;
+    width: 100%;
+    z-index: 200;
+    text-align: center;
+    top: 0;
+    margin-top: 198px;
+    color: white;
+    /* border: 1px solid white; */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    font-size: 15px;   
+}
 
 
+/*
+    INTERNATIONAL TV SHOWS 
+*/
+
+
+
+#International-tv-shows{
+    position: absolute;
+    margin-top:70px;
+    width: 94%;
+    height: 300px;
+    margin-left: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#International-tv-shows h2{
+    position: absolute;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    width: 310px;
+    color: white;
+    top: 0;
+}
+
+#International-tv-shows #anime-slide{
+    position: absolute;
+    width: 100%;
+    height: 220px;
+    margin-top: 20px;
+}
+
+#International-tv-shows #anime-slide::before{
+    position: absolute;
+    content: '';
+    left: 0;
+    top: 0;
+    z-index: 3;
+    height: 100%;
+    width: 150px;
+    background-image: linear-gradient(90deg, black, transparent);
+}
+
+#International-tv-shows #anime-slide::after{
+    position: absolute;
+    content: '';
+    right: 0;
+    top: 0;
+    z-index: 3;
+    height: 100%;
+    width: 150px;
+    background-image: linear-gradient(-90deg, black, transparent);
+}
+
+#International-tv-shows #anime-slide #International-tv-shows-anime{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    overflow: auto;
+    position: relative;
+    scroll-behavior: smooth;
+    overflow: hidden;
+}
+
+#International-tv-shows #anime-slide #International-tv-shows-anime .child{
+    margin: 1px 10px;
+    height: 100%;
+    min-width: 350px;
+    overflow: hidden;
+    cursor: pointer;
+    position: relative;
+}
+
+#International-tv-shows #anime-slide #International-tv-shows-anime::-webkit-scrollbar{
+    -webkit-appearance: none;
+}
+
+#International-tv-shows #anime-slide #International-tv-shows-anime .child img{
+    width: 100%;
+}
+
+#International-tv-shows #anime-slide #International-tv-shows-anime .child h6{
+    position:absolute;
+    width: 100%;
+    z-index: 200;
+    text-align: center;
+    top: 0;
+    margin-top: 198px;
+    color: white;
+    /* border: 1px solid white; */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    font-size: 15px;   
+}
+
+.Imicon{
+    position: relative;
+    color: red;
+    background-color: transparent;
+    width: 50px;
+    height: 100px;
+    outline: none;
+    z-index: 100;
+    border: none;
+    cursor: pointer;
+   font-size: 20px;
+
+}
+
+.Imicon i{
+    height: 500px;
+    width: 500px;
+}
+
+.Imicon:hover{
+    color: white;
+}
 
