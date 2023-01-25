@@ -28,3 +28,13 @@ function ISscroll_right(){
     let left = document.querySelector('#International-tv-shows-anime')
     left.scrollBy(350, 0)
 }
+
+function AWFscroll_left(){
+    let right = document.querySelector('#Award-Winning-Films-anime')
+    right.scrollBy(-350, 0)
+}
+
+function AWFscroll_right(){
+    let left = document.querySelector('#Award-Winning-Films-anime')
+    left.scrollBy(350, 0)
+}
