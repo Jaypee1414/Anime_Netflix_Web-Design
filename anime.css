@@ -63,10 +63,6 @@ body{
     letter-spacing: 2px;
 }
 
-#header #form #joinnow a{
-    text-decoration: none;
-    color: white;
-}
 
 #header #form #signin{
     border-radius: 2px;
@@ -674,3 +670,10 @@ body{
     color: white;
 }
 
+/*
+    UTILITIES
+*/
+#header #form #signin:hover{
+    background-color: rgba(48, 42, 42, 0.9);
+    cursor: pointer;
+}
