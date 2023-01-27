@@ -38,3 +38,13 @@ function AWFscroll_right(){
     let left = document.querySelector('#Award-Winning-Films-anime')
     left.scrollBy(350, 0)
 }
+
+function DFscroll_left(){
+    let right = document.querySelector('#Dark-fantasy-anime')
+    right.scrollBy(-350, 0)
+}
+
+function DFscroll_right(){
+    let left = document.querySelector('#Dark-fantasy-anime')
+    left.scrollBy(350, 0)
+}
