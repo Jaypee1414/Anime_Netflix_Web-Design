@@ -10,7 +10,7 @@
 <body>
     <section id="cover">
         <div id="background">
-            <div id="logo">
+            <div id="logo" class="hidden">
                 <img src="gallery/anime.png" alt="">
             </div>
         </div>
@@ -18,17 +18,17 @@
 
     <section>
         <div id="signin">
-            <div id="text">
+            <div id="text" class="hidden">
                 <h3>Sign In</h3>
             </div>
-            <div id="fillup">
+            <div id="fillup" class="hidden">
                 <input type="text" id="Email" placeholder="Email or phone number ">
                 <input type="password" id="password" placeholder="Password">
             </div>
-            <div id="btn">
-                <button><a href="anime.html">Sign In</a></button>
+            <div id="btn" class="hidden">
+                <button id="login" ><a href="anime.html">Sign In</a></button>
             </div>
-            <div id="help">
+            <div id="help" class="hidden">
                 <h6>Need help?</h6>
                 <div id="text">
                     <p>This page is protected by Google reCAPTCHA to ensure you're not a bot.</p>
@@ -37,13 +37,13 @@
         </div>
     </section>
 
-    <footer>
+    <footer >
         <div id="footer">
             <footer>
                 <!-- <img src="gallery/anime.png" alt=""> -->
                 <div id="footer">
                     <div id="details">
-                        <ul>
+                        <ul class="hidden">
                             <li>Anime Netflix</li>
                             <li>Web Development</li>
                             <li><a href="">Southern City Colleges</a></li>
@@ -51,7 +51,7 @@
                         </ul>
                     </div>
                     <div id="contacts">
-                        <ul>
+                        <ul class="hidden">
                             <li><a href="">Question? Contact us</a></li>
                             <li><a href="">8080</a></li>
                             <li><a href="">Konoha Villages Corp.</a></li>
@@ -59,14 +59,14 @@
                         </ul>
                     </div>
                     <div id="about">
-                        <ul>
+                        <ul class="hidden">
                             <li><a href="">About Anime Netflix</a></li>
                             <li><a href="">Promo</a></li>
                             <li><a href="">Premium Anime</a></li>
                         </ul>
                     </div>
                     <hr>
-                    <div id="developer">
+                    <div id="developer" class="hidden">
                         <h6>ANIME NEFLIX DEVELOPER: JAYPEE0303</h6>
                     </div>
                 </div>
@@ -74,5 +74,8 @@
         </div>
     </footer>
     
+
+    <script src="auth.js"></script>
+    <script src="scroll_join.js"></script>
 </body>
 </html>

@@ -11,7 +11,7 @@
 
     <header id="head">
         <div id="header">
-            <div id="logo">
+            <div id="logo" class="hidden">
                   <img src="gallery/logo.png" alt="">
               </div>
 
@@ -24,15 +24,15 @@
 
     <section>
         <div id="message">
-            <div id="title">Anime</div>
-            <p>Action-packed adventures, offbeat comedies, inspirational stories -- these anime movies and TV shows have a style and spirit unlike anything else.</p>
+            <div id="title" class="hidden">Anime</div>
+            <p class="hidden">Action-packed adventures, offbeat comedies, inspirational stories -- these anime movies and TV shows have a style and spirit unlike anything else.</p>
         </div>
     </section>
 
     <section> <!--ANIME SLIDER-->
         <section> <!--FIRST ANIME SLIDER-->
             <div id="popular-anime">
-                <h2>Popular on Netflix</h2>
+                <h2 class="hidden">Popular on Netflix</h2>
                 <div>
                     <button class="icon" onclick="scroll_left()"><i class="arrow-left">&#10094;</i></button>
                 </div>
@@ -96,9 +96,9 @@
 
         <section> <!--INTERNATIONAL MOVIE-->
             <div id="International-anime">
-                <h2>International Movie</h2>
+                <h2 class="hidden">International Movie</h2>
                 <div>
-                    <button class="Imicon" onclick="IMscroll_left()"><i class="arrow-left">&#10094;</i></button>
+                    <button class="icon" onclick="IMscroll_left()"><i class="arrow-left">&#10094;</i></button>
                 </div>
                 <div id="anime-slide">
                     <div id="International-movie">
@@ -160,9 +160,9 @@
 
         <section><!--INTERNATIONAL TV SHOWS-->
                 <div id="International-tv-shows">
-                    <h2>International Tv shows</h2>
+                    <h2 class="hidden">International Tv shows</h2>
                     <div>
-                        <button class="Imicon" onclick="ISscroll_left()"><i class="arrow-left">&#10094;</i></button>
+                        <button class="icon" onclick="ISscroll_left()"><i class="arrow-left">&#10094;</i></button>
                     </div>
                     <div id="anime-slide">
                         <div id="International-tv-shows-anime">
@@ -230,9 +230,9 @@
 
         <section> <!--AWARD WINNIGN FILMS-->
             <div id="Award-Winning-Films">
-                <h2>Award-Winning Films</h2>
+                <h2 class="hidden">Award-Winning Films</h2>
                 <div>
-                    <button class="Imicon" onclick="AWFscroll_left()"><i class="arrow-left">&#10094;</i></button>
+                    <button class="icon" onclick="AWFscroll_left()"><i class="arrow-left">&#10094;</i></button>
                 </div>
                 <div id="anime-slide">
                     <div id="Award-Winning-Films-anime">
@@ -294,9 +294,9 @@
 
         <section> <!--DARK FANTASY-->
             <div id="Dark-fantasy">
-                <h2>Dark Fantasy</h2>
+                <h2 class="hidden">Dark Fantasy</h2>
                 <div>
-                    <button class="Imicon" onclick="DFscroll_left()"><i class="arrow-left">&#10094;</i></button>
+                    <button class="icon" onclick="DFscroll_left()"><i class="arrow-left">&#10094;</i></button>
                 </div>
                 <div id="anime-slide">
                     <div id="Dark-fantasy-anime">
@@ -373,10 +373,10 @@
 
     <section> <!--MESSAGE-->
         <div id="parent">
-            <div id="message">
-                <h2>THANKS FOR WATCHING</h2>
-                <p>STAY TUNE FOR MORE UPDATE AND LATEST ANIME VIDEOS.
-                "No matter how hard or impossible it is never lose sight of your goal" <br> -<span>Monkey D. Luffy</span></p>
+            <div id="message" >
+                <h2 class="hidden">THANKS FOR WATCHING</h2>
+                <p class="hidden">STAY TUNE FOR MORE UPDATE AND LATEST ANIME VIDEOS.
+                "No matter how hard or impossible it is never lose sight of your goal" <br> -<span class="hidden">Monkey D. Luffy</span></p>
                 <img src="gallery/anime.png" alt="">
             </div>
         </div>
@@ -386,7 +386,7 @@
         <img src="gallery/anime.png" alt="">
         <div id="footer">
             <div id="details">
-                <ul>
+                <ul class="hidden">
                     <li>Anime Netflix</li>
                     <li>Web Development</li>
                     <li><a href="">Southern City Colleges</a></li>
@@ -394,7 +394,7 @@
                 </ul>
             </div>
             <div id="contacts">
-                <ul>
+                <ul class="hidden">
                     <li><a href="">Question? Contact us</a></li>
                     <li><a href="">8080</a></li>
                     <li><a href="">Konoha Villages Corp.</a></li>
@@ -402,13 +402,13 @@
                 </ul>
             </div>
             <div id="about">
-                <ul>
+                <ul class="hidden">
                     <li><a href="">About Anime Netflix</a></li>
                     <li><a href="">Promo</a></li>
                     <li><a href="">Premium Anime</a></li>
                 </ul>
             </div>
-            <div id="social-media">
+            <div id="social-media" class="hidden">
                 <div class="logo">
                     <a href="">
                         <img src="social media platform/twitter-removebg-preview.png" alt="">
@@ -452,5 +452,6 @@
     </footer>
     
     <script src="scroll.js"></script>
+    <script src="scroll_join.js"></script>
 </body>
 </html>
